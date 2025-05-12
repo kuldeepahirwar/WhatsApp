@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
             WhatsAppTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "Android",
+                        name = "Whatsapp",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
